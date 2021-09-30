@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+html,
+body {
+  background: #2c2f33;
+  min-height: 100%;
+  overflow-x : hidden;
+  color: #fff;
+}
+
+.row-space {
+    margin-bottom: 1.5em;
+  margin-top: 1em;
+  }
+  
+  .credits {
+    font-size: 16px;
+  }
+  
+  .row-space-1 {
+    margin-bottom: 1em;
+  margin-top: 1.5em;
+  }
+
+  .privmsg {
+    color: #fff;
+    font-size: 45px;
+    /* animation: growText 0.5s; */
+  }
+
+  .tagline {
+      font-size: 14px;
+  }
+.head-url{
+    text-decoration: none;
+    color: #fff;
+  }
+
+.head-url:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .main {
+      padding-top: 10%;
+  }
+.msg {
+    font-family: "Open Sans", Arial, sans-serif;
+    height: 15em;
+    background-color: #363b41;
+    border-radius: 4px;
+    border: none;
+    color: #c4cdd8;
+    text-align: left;
+    display: block;
+    font-size: 15px;
+    margin: 0 auto;
+    transition: 0.5s;
+    font-family: 'Mukta', sans-serif;
+}
+.msg:focus {
+    background-color: #454a50 !important;
+    box-shadow: none !important;
+    color: #fff !important;
+}
+
+.create-msg {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #7289DA;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: .5s;
+    letter-spacing: 3px;
+    border: solid 2px #7289DA;
+    background-color: #ffffff00;
+    }
+     
+    .create-msg:hover {
+      background: #7289DA;
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 5px #7289DA,
+                  0 0 12px #7289DA,
+                  0 0 21px #7289DA,
+                  0 0 32px #7289DA;
+    }
+    
+    .create-msg:active {
+      border: none;
+      box-shadow: none;
+    }
+    
+
+
+
+/* Footer */
+footer {
+width: 100%;
+text-align: center;
+color: #fff;
+bottom: 0;
+
+}
+.step {
+    display: relative;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .step span {
+    color:#99AAB5;
+  }
+
+  .divider {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .highlight {
+    color: #7289DA;
+  }
+  
+  footer .highlight {
+    font-size: 17px;
+  }
+  
+  .footer-link
+  {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+
+  .footer-link:hover
+{
+  text-decoration: none;
+  color: #7289DA;
+
+} 

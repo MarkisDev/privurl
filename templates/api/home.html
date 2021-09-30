@@ -1,0 +1,68 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#7289DA" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PrivLink - Share encrypted links anonymously!" />
+    <meta property="og:description" content="PrivLink is an ad-free, encrypted and anonymous URL shortener!" />
+    <meta content="{%static 'img/logo.png'%}" property="og:image" />
+    <meta name="description" content="PrivLink is an ad-free, encrypted and anonymous URL shortener!" />
+    <link rel="shortcut icon" type="image/png" href="{%static 'img/16.png' %}" sizes="16x16" />
+    <link rel="shortcut icon" type="image/png" href="{%static 'img/32.png' %}" sizes="32x32" />
+    <link rel='shortcut icon' type='image/x-icon' href="{%static 'img/favicon.ico' %}" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/style.css' %}"
+    />
+
+    <title>PrivLink</title>
+  </head>
+  <body class="fadeInUp animated animatedFadeInUp">
+    <div class="container-md h-75 main" >
+        <div class="row justify-content-center align-items-start row-space-1" >
+          <div class="col-md-6 col-sm-1 text-center">
+          <div class="privurl">
+              <h1><a href="{%url 'home'%}" class="head-url">
+                  <i class="qtip tip-top" data-tip="Served {{count}}+ encrypted links!">Priv<span class="highlight">Link</span>
+          </i>
+        </a></h1>
+
+    </div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-start row-space-1">
+            <div class="col-md-6 col-sm-6 text-left " > 
+                <div class="info-box py-2 px-3" >
+                  <div class="justify-content-center mb-2 info-heading text-center"><h3 >API</h3></div>
+                    PrivLink was made with the intention to be integrated seamlessly into other apps and services. 
+                    The API is request access only to prevent potential spam - this would not take away the anonimity aspect of the service but 
+                    it would mean all requests would have to be sent via a API key.<br/><br/>
+                    To get access or if you have any questions, feel free to mail us or contact me at our Discord server.<br/>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <footer class="footer pt-md-1">
+      <p class="step"><a class="footer-link" href="{%url 'api:home'%}">api </a><span class="divider">|</span><a class="footer-link" href="{%url 'about'%}"> about  </a><span class="divider">|</span><a class="footer-link" href="{%url 'tos'%}"> tos </a></p>
+      <p class="terms">Made with 	&hearts; by <a class="info-link" href="https://markis.dev">Markis.</a></p>
+    </footer>
+
+    <!-- Scripts -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
