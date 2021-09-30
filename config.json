@@ -1,6 +1,0 @@
-{
-    "connection": "mongodb://privlink:%23pr1vl1nkl0l@144.91.64.159:27017/discordsco?authSource=privlink&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=false",
-    "username": "privlink",
-    "password": "#pr1vl1nkl0l",
-    "db_name": "privlink"
-}
