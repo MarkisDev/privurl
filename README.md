@@ -6,3 +6,5 @@ privurl is a FOSS, self-hostable URL shortener built with django and mongodb.
 
 # Why privurl
 privurl was built with security in mind! All non-custom links are encrypted with a passphrase.
+
+A dummy config.json has been added for the users ease.
